@@ -1,0 +1,252 @@
+Unsupervised learning in artificial intelligence is a type of machine learning that learns from data without human supervision. Unlike supervised learning, unsupervised machine learning models are given unlabeled data and allowed to discover patterns and insights without any explicit guidance or instruction. 
+
+Whether you realize it or not, artificial intelligence and machine learning are impacting every aspect of daily life, helping to turn data into insights that can improve efficiencies, reduce costs, and better inform decision-making. Today, businesses are using machine learning algorithms to help power personalized recommendations, real-time translations, or even automatically generate text, images, and other types of content.
+
+Here, we’ll cover the basics of unsupervised machine learning, how it works, and some of its common real-life applications.
+How does unsupervised learning work?
+As the name suggests, unsupervised learning uses self-learning algorithms—they learn without any labels or prior training. Instead, the model is given raw, unlabeled data and has to infer its own rules and structure the information based on similarities, differences, and patterns without explicit instructions on how to work with each piece of data.
+
+Unsupervised learning algorithms are better suited for more complex processing tasks, such as organizing large datasets into clusters. They are useful for identifying previously undetected patterns in data and can help identify features useful for categorizing data. 
+
+Imagine that you have a large dataset about weather. An unsupervised learning algorithm will go through the data and identify patterns in the data points. For instance, it might group data by temperature or similar weather patterns. 
+
+While the algorithm itself does not understand these patterns based on any previous information you provided, you can then go through the data groupings and attempt to classify them based on your understanding of the dataset. For instance, you might recognize that the different temperature groups represent all four seasons or that the weather patterns are separated into different types of weather, such as rain, sleet, or snow. 
+
+Unsupervised machine learning methods
+In general, there are three types of unsupervised learning tasks: clustering, association rules, and dimensionality reduction. 
+
+Below we’ll delve a little deeper into each type of unsupervised learning technique.
+
+Clustering
+Clustering is a technique for exploring raw, unlabeled data and breaking it down into groups (or clusters) based on similarities or differences. It is used in a variety of applications, including customer segmentation, fraud detection, and image analysis. Clustering algorithms split data into natural groups by finding similar structures or patterns in uncategorized data. 
+
+Clustering is one of the most popular unsupervised machine learning approaches. There are several types of unsupervised learning algorithms that are used for clustering, which include exclusive, overlapping, hierarchical, and probabilistic.  
+
+Exclusive clustering: Data is grouped in a way where a single data point can only exist in one cluster. This is also referred to as “hard” clustering. A common example of exclusive clustering is the K-means clustering algorithm, which partitions data points into a user-defined number K of clusters. 
+Overlapping clustering: Data is grouped in a way where a single data point can exist in two or more clusters with different degrees of membership. This is also referred to as “soft” clustering. 
+Hierarchical clustering: Data is divided into distinct clusters based on similarities, which are then repeatedly merged and organized based on their hierarchical relationships. There are two main types of hierarchical clustering: agglomerative and divisive clustering. This method is also referred to as HAC—hierarchical cluster analysis. 
+Probabilistic clustering: Data is grouped into clusters based on the probability of each data point belonging to each cluster. This approach differs from the other methods, which group data points based on their similarities to others in a cluster. 
+Association
+Association rule mining is a rule-based approach to reveal interesting relationships between data points in large datasets. Unsupervised learning algorithms search for frequent if-then associations—also called rules—to discover correlations and co-occurrences within the data and the different connections between data objects. 
+
+It is most commonly used to analyze retail baskets or transactional datasets to represent how often certain items are purchased together. These algorithms uncover customer purchasing patterns and previously hidden relationships between products that help inform recommendation engines or other cross-selling opportunities. You might be most familiar with these rules from the “Frequently bought together” and “People who bought this item also bought” sections on your favorite online retail shop. 
+
+Association rules are also often used to organize medical datasets for clinical diagnoses. Using unsupervised machine learning and association rules can help doctors identify the probability of a specific diagnosis by comparing relationships between symptoms from past patient cases. 
+
+Typically, Apriori algorithms are the most widely used for association rule learning to identify related collections of items or sets of items. However, other types are used, such as Eclat and FP-growth algorithms.
+
+Dimensionality reduction
+Dimensionality reduction is an unsupervised learning technique that reduces the number of features, or dimensions, in a dataset. More data is generally better for machine learning, but it can also make it more challenging to visualize the data.
+
+Dimensionality reduction extracts important features from the dataset, reducing the number of irrelevant or random features present. This method uses principle component analysis (PCA) and singular value decomposition (SVD) algorithms to reduce the number of data inputs without compromising the integrity of the properties in the original data.
+
+Real-world unsupervised learning examples
+Now that you understand the basics of how unsupervised learning works, let’s look at the most common use cases helping businesses explore large volumes of data quickly. 
+
+  
+
+Here are some real-world unsupervised learning examples:
+
+Anomaly detection: Unsupervised clustering can process large datasets and discover data points that are atypical in a dataset. 
+Recommendation engines: Using association rules, unsupervised machine learning can help explore transactional data to discover patterns or trends that can be used to drive personalized recommendations for online retailers. 
+Customer segmentation: Unsupervised learning is also commonly used to generate buyer persona profiles by clustering customers’ common traits or purchasing behaviors. These profiles can then be used to guide marketing and other business strategies. 
+Fraud detection: Unsupervised learning is useful for anomaly detection, revealing unusual data points in datasets. These insights can help uncover events or behaviors that deviate from normal patterns in the data, revealing fraudulent transactions or unusual behavior like bot activity. 
+Natural language processing (NLP): Unsupervised learning is commonly used for various NLP applications, such as categorizing articles in news sections, text translation and classification, or speech recognition in conversational interfaces. 
+Genetic research: Genetic clustering is another common unsupervised learning example. Hierarchical clustering algorithms are often used to analyze DNA patterns and reveal evolutionary relationships. 
+Unsupervised learning is well suited for tasks that require exploring large amounts of unlabeled data. This approach makes it easier for businesses to gain insights from data when no labels are present, helping them to understand the underlying structure of a dataset and identify patterns and relationships between datasets without the need for a human to teach them.
+
+Unsupervised Machine Learning
+In the previous topic, we learned supervised machine learning in which models are trained using labeled data under the supervision of training data. But there may be many cases in which we do not have labeled data and need to find the hidden patterns from the given dataset. So, to solve such types of cases in machine learning, we need unsupervised learning techniques.
+
+What is Unsupervised Learning?
+As the name suggests, unsupervised learning is a machine learning technique in which models are not supervised using training dataset. Instead, models itself find the hidden patterns and insights from the given data. It can be compared to learning which takes place in the human brain while learning new things. It can be defined as:
+
+Unsupervised learning is a type of machine learning in which models are trained using unlabeled dataset and are allowed to act on that data without any supervision.
+Unsupervised learning cannot be directly applied to a regression or classification problem because unlike supervised learning, we have the input data but no corresponding output data. The goal of unsupervised learning is to find the underlying structure of dataset, group that data according to similarities, and represent that dataset in a compressed format.
+
+Example: Suppose the unsupervised learning algorithm is given an input dataset containing images of different types of cats and dogs. The algorithm is never trained upon the given dataset, which means it does not have any idea about the features of the dataset. The task of the unsupervised learning algorithm is to identify the image features on their own. Unsupervised learning algorithm will perform this task by clustering the image dataset into the groups according to similarities between images.
+Why use Unsupervised Learning?
+Below are some main reasons which describe the importance of Unsupervised Learning:
+
+Unsupervised learning is helpful for finding useful insights from the data.
+Unsupervised learning is much similar as a human learns to think by their own experiences, which makes it closer to the real AI.
+Unsupervised learning works on unlabeled and uncategorized data which make unsupervised learning more important.
+In real-world, we do not always have input data with the corresponding output so to solve such cases, we need unsupervised learning.
+Working of Unsupervised Learning
+Working of unsupervised learning can be understood by the below diagram:
+
+Here, we have taken an unlabeled input data, which means it is not categorized and corresponding outputs are also not given. Now, this unlabeled input data is fed to the machine learning model in order to train it. Firstly, it will interpret the raw data to find the hidden patterns from the data and then will apply suitable algorithms such as k-means clustering, Decision tree, etc.
+
+Once it applies the suitable algorithm, the algorithm divides the data objects into groups according to the similarities and difference between the objects.
+
+Types of Unsupervised Learning Algorithm:
+The unsupervised learning algorithm can be further categorized into two types of problems:
+
+Unsupervised Learning algorithms:
+Below is the list of some popular unsupervised learning algorithms:
+
+K-means clustering
+KNN (k-nearest neighbors)
+Hierarchal clustering
+Anomaly detection
+Neural Networks
+Principle Component Analysis
+Independent Component Analysis
+Apriori algorithm
+Singular value decomposition
+
+Advantages of Unsupervised Learning
+Unsupervised learning is used for more complex tasks as compared to supervised learning because, in unsupervised learning, we don't have labeled input data.
+Unsupervised learning is preferable as it is easy to get unlabeled data in comparison to labeled data.
+Disadvantages of Unsupervised Learning
+Unsupervised learning is intrinsically more difficult than supervised learning as it does not have corresponding output.
+The result of the unsupervised learning algorithm might be less accurate as input data is not labeled, and algorithms do not know the exact output in advance.
+
+In a world where nearly all manual tasks are being automated, the definition of manual is changing. There are now many different types of Machine Learning algorithms, some of which can help computers play chess, perform surgeries, and get smarter and more personal.
+
+We are living in an era of constant technological progress, and looking at how computing has advanced over the years, we can predict what’s to come in the days ahead. 
+
+One of the main features of this revolution that stands out is how computing tools and techniques have been democratized. Data scientists have built sophisticated data-crunching machines in the last 5 years by seamlessly executing advanced techniques. The results have been astounding. 
+
+The many different types of machine learning algorithms have been designed in such dynamic times to help solve real-world complex problems. The ml algorithms are automated and self-modifying to continue improving over time. Before we delve into the top 10 machine learning algorithms you should know, let's take a look at the different types of machine learning algorithms and how they are classified. 
+
+Checkout the Simplilearn's video on the "Machine Learning Algorithm". Looking forward to a successful career in AI and Machine learning.Enrol in our  Caltech Post Graduate Program in AI & ML .
+
+List of Popular Machine Learning Algorithms
+1. Linear Regression
+To understand the working functionality of Linear Regression, imagine how you would arrange random logs of wood in increasing order of their weight. There is a catch; however – you cannot weigh each log. You have to guess its weight just by looking at the height and girth of the log (visual analysis) and arranging them using a combination of these visible parameters. This is what linear regression in machine learning is like.
+
+In this process, a relationship is established between independent and dependent variables by fitting them to a line. This line is known as the regression line and is represented by a linear equation Y= a *X + b.
+
+In this equation:
+
+Y – Dependent Variable
+a – Slope
+X – Independent variable
+b – Intercept
+The coefficients a & b are derived by minimizing the sum of the squared difference of distance between data points and the regression line.
+
+2. Logistic Regression
+Logistic Regression is used to estimate discrete values (usually binary values like 0/1) from a set of independent variables. It helps predict the probability of an event by fitting data to a logit function. It is also called logit regression.
+
+These methods listed below are often used to help improve logistic regression models:
+
+include interaction terms
+eliminate features
+regularize techniques
+use a non-linear model
+3. Decision Tree
+Decision Tree algorithm in machine learning is one of the most popular algorithm in use today; this is a supervised learning algorithm that is used for classifying problems. It works well in classifying both categorical and continuous dependent variables. This algorithm divides the population into two or more homogeneous sets based on the most significant attributes/ independent variables.
+
+4. SVM (Support Vector Machine) Algorithm
+SVM algorithm is a method of a classification algorithm in which you plot raw data as points in an n-dimensional space (where n is the number of features you have). The value of each feature is then tied to a particular coordinate, making it easy to classify the data. Lines called classifiers can be used to split the data and plot them on a graph.
+
+5. Naive Bayes Algorithm
+A Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature.
+
+Even if these features are related to each other, a Naive Bayes classifier would consider all of these properties independently when calculating the probability of a particular outcome.
+
+A Naive Bayesian model is easy to build and useful for massive datasets. It's simple and is known to outperform even highly sophisticated classification methods.
+
+6. KNN (K- Nearest Neighbors) Algorithm
+This algorithm can be applied to both classification and regression problems. Apparently, within the Data Science industry, it's more widely used to solve classification problems. It’s a simple algorithm that stores all available cases and classifies any new cases by taking a majority vote of its k neighbors. The case is then assigned to the class with which it has the most in common. A distance function performs this measurement.
+
+KNN can be easily understood by comparing it to real life. For example, if you want information about a person, it makes sense to talk to his or her friends and colleagues!
+
+Things to consider before selecting K Nearest Neighbours Algorithm: 
+
+KNN is computationally expensive
+Variables should be normalized, or else higher range variables can bias the algorithm
+Data still needs to be pre-processed.
+7. K-Means
+It is an unsupervised learning algorithm that solves clustering problems. Data sets are classified into a particular number of clusters (let's call that number K) in such a way that all the data points within a cluster are homogenous and heterogeneous from the data in other clusters.
+
+How K-means forms clusters:
+
+The K-means algorithm picks k number of points, called centroids, for each cluster.
+Each data point forms a cluster with the closest centroids, i.e., K clusters.
+It now creates new centroids based on the existing cluster members.
+With these new centroids, the closest distance for each data point is determined. This process is repeated until the centroids do not change.
+8. Random Forest Algorithm
+A collective of decision trees is called a Random Forest. To classify a new object based on its attributes, each tree is classified, and the tree “votes” for that class. The forest chooses the classification having the most votes (over all the trees in the forest).
+
+Each tree is planted & grown as follows:
+
+If the number of cases in the training set is N, then a sample of N cases is taken at random. This sample will be the training set for growing the tree.
+If there are M input variables, a number m<<M is specified such that at each node, m variables are selected at random out of the M, and the best split on this m is used to split the node. The value of m is held constant during this process.
+Each tree is grown to the most substantial extent possible. There is no pruning. 
+9. Dimensionality Reduction Algorithms
+In today's world, vast amounts of data are being stored and analyzed by corporates, government agencies, and research organizations. As a data scientist, you know that this raw data contains a lot of information - the challenge is to identify significant patterns and variables.
+
+Dimensionality reduction algorithms like Decision Tree, Factor Analysis, Missing Value Ratio, and Random Forest can help you find relevant details.
+
+10. Gradient Boosting Algorithm and AdaBoosting Algorithm
+Gradient Boosting Algorithm and AdaBoosting Algorithm are boosting algorithms used when massive loads of data have to be handled to make predictions with high accuracy. Boosting is an ensemble learning algorithm that combines the predictive power of several base estimators to improve robustness.
+
+In short, it combines multiple weak or average predictors to build a strong predictor. These boosting algorithms always work well in data science competitions like Kaggle, AV Hackathon, CrowdAnalytix. These are the most preferred machine learning algorithms today. Use them, along with Python and R Codes, to achieve accurate outcomes.
+
+How Learning These Vital Algorithms Can Enhance Your Skills in Machine Learning
+If you're a data scientist or a machine learning enthusiast, you can use these techniques to create functional Machine Learning projects.
+
+There are three types of most popular Machine Learning algorithms, i.e - supervised learning, unsupervised learning, and reinforcement learning. All three techniques are used in this list of 10 common Machine Learning Algorithms: 
+
+Clustering Types
+Following are the clustering types of Machine Learning:
+
+Hierarchical clustering
+K-means clustering
+K-NN (k nearest neighbors)
+Principal Component Analysis
+Singular Value Decomposition
+Independent Component Analysis
+Hierarchical Clustering
+Hierarchical clustering is an algorithm which builds a hierarchy of clusters. It begins with all the data which is assigned to a cluster of their own. Here, two close cluster are going to be in the same cluster. This algorithm ends when there is only one cluster left.
+
+K-means Clustering
+K means it is an iterative clustering algorithm which helps you to find the highest value for every iteration. Initially, the desired number of clusters are selected. In this clustering method, you need to cluster the data points into k groups. A larger k means smaller groups with more granularity in the same way. A lower k means larger groups with less granularity.
+
+The output of the algorithm is a group of “labels.” It assigns data point to one of the k groups. In k-means clustering, each group is defined by creating a centroid for each group. The centroids are like the heart of the cluster, which captures the points closest to them and adds them to the cluster.
+
+K-mean clustering further defines two subgroups:
+
+Agglomerative clustering
+Dendrogram
+Agglomerative clustering
+This type of K-means clustering starts with a fixed number of clusters. It allocates all data into the exact number of clusters. This clustering method does not require the number of clusters K as an input. Agglomeration process starts by forming each data as a single cluster.
+
+This method uses some distance measure, reduces the number of clusters (one in each iteration) by merging process. Lastly, we have one big cluster that contains all the objects.
+
+Dendrogram
+In the Dendrogram clustering method, each level will represent a possible cluster. The height of dendrogram shows the level of similarity between two join clusters. The closer to the bottom of the process they are more similar cluster which is finding of the group from dendrogram which is not natural and mostly subjective.
+
+K- Nearest neighbors
+K- nearest neighbour is the simplest of all machine learning classifiers. It differs from other machine learning techniques, in that it doesn’t produce a model. It is a simple algorithm which stores all available cases and classifies new instances based on a similarity measure.
+
+It works very well when there is a distance between examples. The learning speed is slow when the training set is large, and the distance calculation is nontrivial.
+
+Principal Components Analysis
+In case you want a higher-dimensional space. You need to select a basis for that space and only the 200 most important scores of that basis. This base is known as a principal component. The subset you select constitute is a new space which is small in size compared to original space. It maintains as much of the complexity of data as possible.
+
+Association
+Association rules allow you to establish associations amongst data objects inside large databases. This unsupervised technique is about discovering interesting relationships between variables in large databases. For example, people that buy a new home most likely to buy new furniture.
+
+Other Examples:
+
+A subgroup of cancer patients grouped by their gene expression measurements
+Groups of shopper based on their browsing and purchasing histories
+Movie group by the rating given by movies viewers
+
+
+Applications of Unsupervised Machine Learning
+Some application of Unsupervised Learning Techniques are:
+
+Clustering automatically split the dataset into groups base on their similarities
+Anomaly detection can discover unusual data points in your dataset. It is useful for finding fraudulent transactions
+Association mining identifies sets of items which often occur together in your dataset
+Latent variable models are widely used for data preprocessing. Like reducing the number of features in a dataset or decomposing the dataset into multiple components
+Disadvantages of Unsupervised Learning
+You cannot get precise information regarding data sorting, and the output as data used in unsupervised learning is labeled and not known
+Less accuracy of the results is because the input data is not known and not labeled by people in advance. This means that the machine requires to do this itself.
+The spectral classes do not always correspond to informational classes.
+The user needs to spend time interpreting and label the classes which follow that classification.
+Spectral properties of classes can also change over time so you can’t have the same class information while moving from one image to another.
