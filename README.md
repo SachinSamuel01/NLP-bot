@@ -7,12 +7,10 @@ The Natural Language Conversational Bot Platform is a web-based interface that a
 
 
 ## Features
-- **Custom Chatbots**: Users can create bots tailored to their specific needs.
-- **File Upload**: Supports uploading files to fine-tune the bot for better accuracy.
-- **Prompt Customization**: Allows detailed instructions on how the bot should interact.
-- **Voice Interaction**: Supports both voice and text interactions.
-- **Vector Database**: Utilizes a vector database for storing large data and implements Retrieval Augmented Generation (RAG).
-- **Retrieval Augmented Generation (RAG)**: Enhances responses and allows the bot to handle previously unseen questions.
+- **Custom Chatbots:** Users can create bots tailored to their specific needs.
+- **Prompt Customization:** Allows detailed instructions to fine-tune the bot for better accuracy and how the bot should interact.
+- **Voice Interaction:** Supports both voice and text interactions ( using whisper and pyttsx3 ).
+- **Retrieval Augmented Generation (RAG):** Users can upload files ( currently supports txt files ) to ask specific questions or queries related to it.
 
 ## Technologies
 - **Python**: Main programming language.
