@@ -3,7 +3,7 @@
 ## Introduction
 The Natural Language Conversational Bot Platform is a web-based interface that allows users to create custom AI-powered chatbots. This platform is versatile, supporting a wide range of fields and integrating large language models (LLM) for enhanced conversational capabilities. Users can create personalized bots, upload relevant files for RAG, and interact through both text and voice.
 
-![image](https://github.com/SachinSamuel01/NLP-bot/assets/121634881/a1f055a8-5de1-4056-b09f-162da301dde9)
+[![Watch the video](https://img.youtube.com/vi/jfcI9Kcjh2U/0.jpg)](https://youtu.be/jfcI9Kcjh2U)
 
 
 ## Features
