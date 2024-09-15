@@ -8,7 +8,7 @@ The Natural Language Conversational Bot Platform is a web-based interface that a
 ### Check out my B.Tech Report on NLP Bot V2 - Developed as a part on my Data Science Internship Training with Learnbay
 The project outlines the Project Details, Backend System Design, Architecture, DB Schema.
 
-[Final Report](https://docs.google.com/document/d/1b8ykOOxLHLfuTPOcmoSdAIKaxYEtx4-pAhn-3Vo4RzU/edit?usp=sharing)
+[Report - Final Draft](https://docs.google.com/document/d/1b8ykOOxLHLfuTPOcmoSdAIKaxYEtx4-pAhn-3Vo4RzU/edit?usp=sharing)
 
 [Certificate](https://drive.google.com/file/d/1PMN9jbzL_GLFswE-SdrvJGPG6qc6rKCx/view?usp=sharing)
 
